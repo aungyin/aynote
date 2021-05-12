@@ -34,6 +34,8 @@ function getNoteSidebar() {
       text: 'Note',
       children: [
         { text: 'Git Note', link: '/note/git' },
+        { text: 'HTML Note', link: '/note/html' },
+        { text: 'Nuxtjs Access config property from client', link: '/note/nuxt-config' },
       ]
     },
   ]
@@ -42,10 +44,10 @@ function getNoteSidebar() {
 function getAwesomeSidebar() {
   return [
     {
-      text: 'Awesome Tools & Libs',
+      text: 'Awesome',
       children: [
-        { text: 'JS Library', link: '/awesome/js-library' },
-        { text: 'Image Compression', link: '/awesome/image-compression' },
+        { text: 'Library and Tool', link: '/awesome/library-tool' },
+        { text: 'Articles and Resources', link: '/awesome/resources' },
       ]
     },
   ]
