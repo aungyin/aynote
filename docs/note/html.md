@@ -3,8 +3,8 @@ title: 'HTML'
 description: 'HTML'
 ---
 
-# Best Practices
-### Use "srcset" to reduce image size
+## Best Practices
+#### Use "srcset" to reduce image size
 ```html
   <img 
     src="image.jpg"
@@ -12,6 +12,6 @@ description: 'HTML'
             image_medium.jpg 400w" />
 ```
 
-### Image format
+#### Image format
 - Web optimized for photo: JPEG or WEBP
 - Icons and Logos: SVG

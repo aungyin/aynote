@@ -4,7 +4,7 @@ description: 'Nuxtjs Access config property from client'
 ---
 # Nuxtjs Access config property from client
 
-### Setting Config
+## Setting Config
 Nuxtjs offer 2 types of runtimeConfig, public and private, and can be accessed uisng `$config`
 
 - `publicRuntimeConfig` is available on both **server** and **client**.  
@@ -26,7 +26,7 @@ export default {
 }
 ```
 
-### Access Config from pages, store or components
+## Access Config from pages, store or components
 ```vue
 <!-- pages/index.vue -->
 <template>
