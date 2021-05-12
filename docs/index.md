@@ -6,7 +6,7 @@ sidebar: false
 
 # AY Note
 
-![AY Note](../images/AY_Note.png)
+![AY Note](./images/AY_Note.png)
 
 A Programmer, A Husband, A Father from :myanmar: currently :japan:
 
