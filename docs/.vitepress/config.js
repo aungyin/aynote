@@ -1,10 +1,10 @@
 module.exports = {
   lang: 'en-US',
   title: 'AY Note',
-  description: 'Personal Blog',
+  description: 'AY Note',
 
   themeConfig: {
-    editLink: true,
+    editLinks: true,
     editLinkText: 'Edit this page on GitHub',
     lastUpdated: 'Last Updated',
 

@@ -11,8 +11,9 @@ A Collection of Open Source Library.
 - [Get Waves](https://getwaves.io/) - Make some waves
 
 
-## SVG
- [SVGO](https://jakearchibald.github.io/svgomg/) - Node.js tool for optimizing SVG files
+## SVG & LOGO
+- [SVGO](https://jakearchibald.github.io/svgomg/) - Node.js tool for optimizing SVG files
+- [brandy](https://getbrandy.io/) - Stay on brand with brandy
 
 
 ## Animation & Scroll
