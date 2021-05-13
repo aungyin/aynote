@@ -10,9 +10,19 @@ module.exports = {
 
     nav: [
       {
-        text: 'Note', 
-        link: '/note/', 
-        activeMatch: '^/note/' 
+        text: 'Git', 
+        link: '/git/', 
+        activeMatch: '^/git/' 
+      },
+      {
+        text: 'HTML', 
+        link: '/html/', 
+        activeMatch: '^/html/' 
+      },
+      {
+        text: 'Nuxt', 
+        link: '/nuxt/', 
+        activeMatch: '^/nuxt/' 
       },
       {
         text: 'Awesome', 
@@ -22,20 +32,44 @@ module.exports = {
     ],
 
     sidebar: {
-      '/note/': getNoteSidebar(),
+      '/git/': getGitSidebar(),
+      '/html/': getHtmlSidebar(),
+      '/nuxt/': getNuxtSidebar(),
       '/awesome/': getAwesomeSidebar(),
     }
   }
 }
 
-function getNoteSidebar() {
+function getGitSidebar() {
   return [
     {
-      text: 'Note',
+      text: 'Git',
       children: [
-        { text: 'Git Note', link: '/note/git' },
-        { text: 'HTML Note', link: '/note/html' },
-        { text: 'Nuxtjs Access config property from client', link: '/note/nuxt-config' },
+        { text: 'Basic Commands', link: '/git/git-basic-command' },
+        { text: 'Git Config', link: '/git/git-config' },
+        { text: 'Git Alias', link: '/git/git-alias' },
+      ]
+    },
+  ]
+}
+
+function getHtmlSidebar() {
+  return [
+    {
+      text: 'HTML',
+      children: [
+        { text: 'HTML Best Practice', link: '/html/html-best-practice' },
+      ]
+    },
+  ]
+}
+
+function getNuxtSidebar() {
+  return [
+    {
+      text: 'Nuxt',
+      children: [
+        { text: 'Nuxtjs Access config property from client', link: '/nuxt/nuxt-config' },
       ]
     },
   ]
